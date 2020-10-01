@@ -1,5 +1,5 @@
 """
-    Run slow CPU-intensive or blocking I/O code in a thread:
+    Run slow CPU-intensive or blocking I/O code in a thread:+++
 
     if a function performs a CPU-intensive calculation for 1 second,
     all concurrent asyncio Tasks and IO operations would be delayed by 1 second.
@@ -39,3 +39,6 @@ async def get_data_size():
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(print_data_size())
+
+
+# sdfgd
